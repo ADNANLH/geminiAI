@@ -15,7 +15,6 @@ const ContextProvider = (props) => {
 
     }
 
-
     const onSent = async (prompt) => {
 
         setResultData("")
