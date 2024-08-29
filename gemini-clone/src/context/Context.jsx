@@ -19,7 +19,7 @@ const ContextProvider = (props) => {
 
     const newChat = () =>{
         setLoading(false)
-        setShowResult()
+        setShowResult(false)
     }
 
     const onSent = async (prompt) => {
@@ -73,7 +73,8 @@ const ContextProvider = (props) => {
         loading,
         resultData,
         input,
-        setInput
+        setInput,
+        newChat
     }
 
     return(
